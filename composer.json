@@ -1,0 +1,32 @@
+{
+    "name": "bloom-ux/vite-manifest",
+    "description": "Get js and css dependencies from a vitejs manifest file",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "BloomUx\\ViteManifest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Felipe Lavín Z.",
+            "email": "felipe@bloom-ux.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6",
+        "suin/phpcs-psr4-sniff": "^3.0",
+        "opsway/psr12-strict-coding-standard": "^0.7.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+	"scripts": {
+		"cs-check": "phpcs",
+		"cs-fix": "phpcbf"
+	}
+}
