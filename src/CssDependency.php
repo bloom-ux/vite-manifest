@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bloom_UX\ViteManifest;
+namespace BloomUx\ViteManifest;
 
 class CssDependency extends AbstractDependency implements DependencyInterface
 {
